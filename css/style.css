@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+}
+
+
+.main-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 900px;
+    background-color: rgba(164, 214, 187, 0.719);
+}
+
+.container{
+    width: 60%;
+    height: 55%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px 8px 8px 8px;
+
+
+    
+}
+
+.content-box{
+    height: 45%;
+    padding: 30px 35px;
+    border-radius: 8px 8px 0px 0px;
+
+
+}
+.heading h1{
+    font-size: 24px;
+    color: hsl(179, 62%, 43%);
+    font-weight: 700;
+    margin-bottom: 15px;
+
+
+}
+.content {
+ 
+    margin: 5px 0px;
+
+}
+
+.content h2{
+    padding: 12px 0px;
+    font-size: 20px;
+    color: hsl(71, 73%, 54%);
+    font-weight: 700;
+
+}
+.content p{
+    padding: 3px 0px;
+    color: hsl(218, 22%, 67%);
+}
+
+.subscription-box{
+    display: flex;
+    height: 55%;
+    background-color: hsl(179, 62%, 43%);
+    border-radius: 0px 0px 8px 8px;
+}
+
+
+
+.price-box{
+    width: 50%;
+    height: 100%;
+    padding: 30px 35px;
+    background-color: hsla(179, 72%, 36%, 0.952);
+    border-radius: 0px 0px 0px 8px;
+
+
+}
+.price-box h3{
+    color: hsl(204, 43%, 93%);
+}
+
+.why-box{
+    width: 50%;
+    height: 100%;
+    padding: 25px 35px;
+}
+.price{
+    display: flex;
+    margin: 20px 0px 10px 0px;
+    color: hsla(203, 44%, 93%, 0.527);
+    align-items: center;
+}
+.price h2{
+    color: hsl(204, 43%, 93%);
+    padding-right: 10px;
+    font-size: 30px;
+
+}
+.price-content{
+    color: hsl(204, 43%, 93%);
+    
+
+}
+.buttons{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+}
+.btn{
+    display: inline-block;
+    width: 90%; 
+    text-decoration: none;
+    background-color: hsl(71, 73%, 54%);
+    margin: 20px 0px;
+   padding:15px 10px;
+   border-radius: 5px;
+   color: hsl(204, 43%, 93%);
+   font-weight: 700;
+
+}
+
+
+
+
+.why-box h3{
+    color: hsl(204, 43%, 93%);
+    margin-bottom: 15px;
+    opacity: .9;
+}
+.why-box p{
+    color: hsl(204, 43%, 93%);
+    opacity: .7;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.3;
+}
+
+
+@media only screen and (max-width: 1050px) {
+    .main-container{
+        align-items: normal;
+        padding: 50px 10px;
+        height: auto;
+    }
+    .container{
+        width: 90%;
+        height: 100%;
+        
+    }
+
+    .price-box{
+        border-radius: 0px;
+    }
+    .content-box{
+        padding: 30px 35px;
+    }
+    .content p{
+    
+        line-height: 1.5;
+    }
+
+    .subscription-box{
+        flex-direction: column;
+
+    }
+    .why-box , .price-box{
+        width: 100%;
+
+    } 
+    .why-box h3{
+        color: hsl(204, 43%, 93%);
+        margin-bottom: 15px;
+        opacity: .9;
+        font-size: 16px;
+    }
+    .why-box p{
+        opacity: .9;
+        font-size: 15px;
+        line-height: 1.4;
+    }
+
+    /* padding: 30px 35px; */
+}
+
+
+
+
+
+
+/* 
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); } */
